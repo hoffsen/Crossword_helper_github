@@ -1,0 +1,8 @@
+streamlit
+streamlit-cropper
+opencv-python
+pillow
+numpy
+transformers
+sentencepiece
+torch
