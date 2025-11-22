@@ -1,8 +1,10 @@
 streamlit
 streamlit-cropper
-opencv-python
-pillow
+opencv-python-headless
 numpy
-transformers
-sentencepiece
+Pillow
 torch
+torchvision
+torchaudio
+transformers
+accelerate
