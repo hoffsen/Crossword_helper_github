@@ -1,0 +1,24 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
+.venv/
+venv/
+
+# OS junk
+.DS_Store
+
+# Streamlit / cache
+.streamlit/
+.cache/
+
+# Torch / model caches (don’t want these in repo)
+*.pt
+*.pth
+*.bin
+EOF
